@@ -233,14 +233,27 @@
     </style>
 
     <style name="buttonBlue">
+        <item name="android:gravity">center</item>
         <item name="android:layout_width">240dp</item>
         <item name="android:layout_height">52dp</item>
-        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_margin">8dp</item>
         <item name="android:textSize">17sp</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
         <item name="android:background">@drawable/btn_blue_select</item>
+    </style>
+
+    <style name="buttonLightBlue">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:background">@drawable/btn_light_blue_select</item>
     </style>
 
     <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">

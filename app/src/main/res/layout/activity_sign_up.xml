@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/status_bar_color"
+    tools:context=".SignUp.view.SignUpActivity">
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_blue"
+        android:src="@drawable/ic_police" />
+
+    <TextView
+        android:id="@+id/createAccountTitle"
+        style="@style/title_2"
+        android:layout_alignParentTop="true"
+        android:text="@string/welcome_to_slpd" />
+
+    <TextView
+        android:id="@+id/createAccountDescription"
+        style="@style/title_3_bold"
+        android:layout_below="@id/createAccountTitle"
+        android:text="@string/create_your_profile" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/createAccountDescription"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Full Name *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:gravity="top"
+                android:padding="12dp"
+                android:singleLine="false" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Name with Initials *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:gravity="top"
+                android:padding="12dp"
+                android:singleLine="false" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="NIC *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:inputType="number" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Passport (Optional)" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Driving License (Optional)" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Age *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:inputType="number" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Marital Status *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:inputType="textCapCharacters" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Permanent Address *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:gravity="top"
+                android:padding="12dp"
+                android:singleLine="false" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Residential Address *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:gravity="top"
+                android:padding="12dp"
+                android:singleLine="false" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Contact Information - Home *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:inputType="phone" />
+
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Contact Information - Personal *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:gravity="top"
+                android:hint="1\n2"
+                android:inputType="phone"
+                android:padding="12dp"
+                android:singleLine="false" />
+
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="E-Mail Address *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="District *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Police Domain *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Gramasewaka Area *" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/form_field"
+                android:layout_width="match_parent"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Upload Your scanned NIC copy *" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/baseline_description_24" />
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Upload a scanned birth certificate *" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/baseline_description_24" />
+
+            <TextView
+                style="@style/body"
+                android:layout_marginTop="12dp"
+                android:text="Recent taken photograph *" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/baseline_add_photo_alternate_24" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/cansel_button"
+                    style="@style/buttonLightBlue"
+                    android:text="Cansel" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/create_button"
+                    style="@style/buttonBlue"
+                    android:enabled="false"
+                    android:text="Create" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

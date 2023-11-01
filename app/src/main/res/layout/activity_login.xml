@@ -21,7 +21,7 @@
             <TextView
                 android:id="@+id/createAccountTitle"
                 style="@style/title_large"
-                android:text="Welcome to SLPD" />
+                android:text="@string/welcome_to_slpd" />
 
             <ImageView
                 android:layout_width="100dp"
